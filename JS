@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll(".page").forEach(page => page.classList.add("hidden"));
     document.getElementById("page-intro").classList.remove("hidden");
 
+
     // 🔹 FUNCIÓN PARA MOSTRAR PÁGINAS
     function showPage(pageToShow) {
         document.querySelectorAll(".page").forEach(page => page.classList.add("hidden"));
